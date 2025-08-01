@@ -71,6 +71,15 @@ console.log("licensa", cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+// cars.push(
+//   `{brand: "DMC";
+//     model: "deLorean";
+//     color: "steel";
+//     trims:["time travel", "style", "rail-line"]}`
+// );
+
+console.log("deLorean", cars);
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
@@ -87,7 +96,6 @@ for (let i = 0; i < cars.length; i++) {
     console.log("false");
   }
 }
-
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
