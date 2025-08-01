@@ -78,7 +78,9 @@ console.log("licensa", cars);
 //     trims:["time travel", "style", "rail-line"]}`
 // );
 
-console.log("deLorean", cars);
+// appeno lo scommento mi va in conflitto con esercizio 8
+
+// console.log("deLorean", cars);
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
