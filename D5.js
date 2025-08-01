@@ -57,6 +57,15 @@ const cars = [
   },
 ];
 
+function licensPlate(carLicens) {
+  for (let i = 0; i < carLicens.length; i++) {
+    carLicens[i].licensPlate = "ecto-" + (i + 1);
+  }
+}
+licensPlate(cars);
+
+console.log("licensa", cars);
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
@@ -71,6 +80,13 @@ const justTrims = [];
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+for (let i = 0; i < cars.length; i++) {
+  if (cars[i].color.charAt(0) === "b") {
+    console.log("true");
+  } else if (cars[i].color.charAt(0) !== "b") {
+    console.log("false");
+  }
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
